@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class TextCounter : MonoBehaviour {
 
-	[SerializeField] TrailRuntimeSet runtimeSet;
+	[SerializeField] TransformRuntimeSet runtimeSet;
 	[SerializeField] float updateDelay;
 
 	private Text textComponent;

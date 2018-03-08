@@ -33,6 +33,7 @@ public class Trail : MonoBehaviour {
 
 		spawner = GameObject.FindObjectOfType<Spawner>();
 
+		// Get trail component
 		trailRenderer = GetComponent<TrailRenderer>();
 
 		// Set trail lifetime 
@@ -40,7 +41,7 @@ public class Trail : MonoBehaviour {
 
 		// Set trail thickness
 		trailRenderer.startWidth = thickness;
-		trailRenderer.endWidth = 0.001f;
+		trailRenderer.endWidth = 0.01f;
 
 		// Set trail color
 		trailRenderer.startColor = Color.cyan; //Random.ColorHSV(0, 1, 1, 1, 1, 1, 1, 1);

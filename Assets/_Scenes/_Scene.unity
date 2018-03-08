@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a5ec65b2dab4ed9b35f051454508b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 1284952507381402, guid: db034c6a637ec41d5b796ab0368ad88b,
+  spawnPrefab: {fileID: 1966586822989586, guid: 441cdc3267e8d4d76bb96b7b08b74aff,
     type: 2}
   maxNumberOfPrefabs: 1000
 --- !u!1 &588663680
@@ -479,8 +479,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6113177ba8b8a4856bb65dd09e3739c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runtimeSet: {fileID: 11400000, guid: 10dc0032d9d9641098e5c2a57b10461b, type: 2}
+  runtimeSet: {fileID: 11400000, guid: 768d3ab9a907e4811a56a45ab124fe58, type: 2}
   updateDelay: 0
+--- !u!1 &1447245040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1447245042}
+  - component: {fileID: 1447245041}
+  m_Layer: 0
+  m_Name: FPS Counter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1447245041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447245040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4eb268e7cda4c758b93ba1a80e4183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1447245042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447245040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1650005416
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,7 +537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1650005417
 MonoBehaviour:
   m_ObjectHideFlags: 0
